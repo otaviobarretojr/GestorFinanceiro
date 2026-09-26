@@ -1,3 +1,4 @@
+import'./register-sw';
 import React,{useEffect,useState}from'react';import{createRoot}from'react-dom/client';import{Home,ReceiptText,Plus,TrendingUp,Target,Eye,EyeOff,WalletCards,LogOut,X,ChevronRight}from'lucide-react';import{supabase}from'./supabase';import'./styles.css';
 const money=n=>new Intl.NumberFormat('pt-BR',{style:'currency',currency:'BRL'}).format(Number(n||0));
 const today=()=>new Date().toISOString().slice(0,10);
