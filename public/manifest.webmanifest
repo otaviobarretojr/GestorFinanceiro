@@ -1,1 +1,1 @@
-{"name":"Minha Casa • Finanças","short_name":"Minha Casa","description":"Gestor financeiro familiar","start_url":"/","display":"standalone","background_color":"#07101d","theme_color":"#07101d","icons":[{"src":"/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
+{"name":"Minha Casa • Finanças","short_name":"Minha Casa","description":"Gestor financeiro familiar","start_url":"./","display":"standalone","background_color":"#07101d","theme_color":"#07101d","icons":[{"src":"./icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
