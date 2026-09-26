@@ -13,5 +13,9 @@ jobs:
         with:
           node-version: 20
       - run: npm install --package-lock-only
+      - uses: actions/upload-artifact@v4
+        with:
+          name: package-lock
+          path: package-lock.json
       - run: npm ci
       - run: npm run build
